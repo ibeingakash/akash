@@ -2,7 +2,7 @@
 if (isset($_POST['submit'])) { 
       $name = $_POST['name'];
       $email = $_POST['email'];
-      $ToEmail = 'test@test.com';
+      $ToEmail = 'ibeingakash@gmail.com';
       $EmailSubject = $_POST['subject']; 
       $mailheader = "From: ".$_POST["email"]."\r\n"; 
       $mailheader .= "Reply-To: ".$_POST["email"]."\r\n"; 
